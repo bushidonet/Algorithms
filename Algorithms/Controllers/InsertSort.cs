@@ -6,7 +6,7 @@ namespace Algorithms.Controllers
     [Route("[controller]")]
     public class InsertSort : ControllerBase
     {
-
+        'Algoritmo
         [HttpPost(Name = "InsertSort")]
         public ActionResult Post([FromBody] int[] array)
         {

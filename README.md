@@ -4,7 +4,7 @@
 2) INSERT SORT
 
 
-** 1 BUBBLE SORT **
+1 BUBBLE SORT
 Eplicacion:
 Compara y intercambia elementos adyacentes si están en el orden incorrecto.
 Este algoritmo tiene una complejidad de O(n²), por lo que es ineficiente para listas grandes.

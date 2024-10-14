@@ -4,9 +4,13 @@ namespace Algorithms.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class InsertSort : ControllerBase
+    public class Algoritmo_2_InsertSort : ControllerBase
     {
-        'Algoritmo
+        /// <summary>
+        /// Algoritmo
+        /// </summary>
+        /// <param name="array"></param>
+        /// <returns></returns>
         [HttpPost(Name = "InsertSort")]
         public ActionResult Post([FromBody] int[] array)
         {

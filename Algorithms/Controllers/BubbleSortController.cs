@@ -5,7 +5,7 @@ namespace Algorithms.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class BubbleSortController: ControllerBase
+    public class Algoritmo_1_BubbleSortController : ControllerBase
     {
         /// <summary>
         /// Sort Bubble Compara y intercambia elementos adyacentes si están en el orden incorrecto.
